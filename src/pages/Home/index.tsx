@@ -86,7 +86,7 @@ export function Home() {
 
   function handleCreateNewCyle(data: newCycleFormData) {
     const newCycle: Cycle = {
-      id: new Date().getTime(),
+      id: new Date().getTime().toString(),
       task: data.task,
       minutesAmount: data.minutesAmount,
       startDate: new Date(),
@@ -123,7 +123,7 @@ export function Home() {
 
   useEffect(() => {
     if (activeCycle) {
-      document.title = `${minutes}:${seconds}`
+      document.title = `${activeCycle.task} | ${minutes}:${seconds}`
     } else {
       document.title = 'Ignite | Timer'
     }
