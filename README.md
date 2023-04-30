@@ -2,7 +2,7 @@ Nesse módulo nos aprofundamos no react, aprendendo como usar o useEffect, o con
 
 ![Ignite Timer - Tela Countdown](https://i.imgur.com/bJhUaua.png)
 ![Ignite Timer - Tela Countdown com ciclo ativo](https://i.imgur.com/fYDLHzy.png)
-![Ignite Timer - Tela Historico de ciclos](https://imgur.com/yC5K1sn)
+![Ignite Timer - Tela Historico de ciclos](https://imgur.com/yC5K1sn.png)
 
 Utilizamos também bibliotecas como:
 - Styled components (evitando criar componentes quando o que muda é apenas a estética)
