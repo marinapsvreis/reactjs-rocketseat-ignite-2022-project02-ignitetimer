@@ -6,7 +6,6 @@ export function Countdown() {
   const {
     activeCycle,
     activeCycleId,
-    markActiveCycleIdAsNull,
     markCurrentCycleAsFinished,
     amountSecondsPassed,
     setSecondsPassed,
@@ -43,7 +42,6 @@ export function Countdown() {
           markCurrentCycleAsFinished()
           setSecondsPassed(totalSeconds)
           clearInterval(interval)
-          markActiveCycleIdAsNull()
         } else {
           setSecondsPassed(secondsDifference)
         }
@@ -58,7 +56,6 @@ export function Countdown() {
     totalSeconds,
     activeCycleId,
     markCurrentCycleAsFinished,
-    markActiveCycleIdAsNull,
     setSecondsPassed,
   ])
 
